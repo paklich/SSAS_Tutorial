@@ -6,10 +6,37 @@
     <Name>Analysis Services Tutorial.database</Name>
     <FullPath>Analysis Services Tutorial.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Adventure Works DW2014.ds</Name>
+      <FullPath>Adventure Works DW2014.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Adventure Works DW2014.dsv</Name>
+      <FullPath>Adventure Works DW2014.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2014</Id>
+            <Name>Adventure Works DW2014</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=reportdevelop.continent.ru;Password=;User ID=;Initial Catalog=AdventureWorksDW2014</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2014</Id>
+            <Name>Adventure Works DW2014</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
