@@ -6,6 +6,32 @@
     <Name>Analysis Services Tutorial.database</Name>
     <FullPath>Analysis Services Tutorial.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Adventure Works DW2014.cube</Name>
+      <FullPath>Adventure Works DW2014.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Works DW2014.partitions</Name>
+          <FullPath>Adventure Works DW2014.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Adventure Works DW2014.ds</Name>
