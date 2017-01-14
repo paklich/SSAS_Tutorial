@@ -3,11 +3,12 @@
   <Name>Adventure Works DW2014</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=reportdevelop.continent.ru;Password=;User ID=;Initial Catalog=AdventureWorksDW2014</ConnectionString>
-  <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=reportdevelop.continent.ru;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2014</ConnectionString>
+  <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
-    <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
-    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+    <Account>kaplichadm@continent.ru</Account>
+    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <Timeout>PT0S</Timeout>
 </DataSource>

@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Adventure Works DW2014.cube</Name>
-      <FullPath>Adventure Works DW2014.cube</FullPath>
+      <Name>Analysis Services Tutorial.cube</Name>
+      <FullPath>Analysis Services Tutorial.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Adventure Works DW2014.partitions</Name>
-          <FullPath>Adventure Works DW2014.partitions</FullPath>
+          <Name>Analysis Services Tutorial.partitions</Name>
+          <FullPath>Analysis Services Tutorial.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -52,14 +52,14 @@
           <ConfigurationSetting>
             <Id>Adventure Works DW2014</Id>
             <Name>Adventure Works DW2014</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=reportdevelop.continent.ru;Password=;User ID=;Initial Catalog=AdventureWorksDW2014</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=reportdevelop.continent.ru;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2014</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>Adventure Works DW2014</Id>
             <Name>Adventure Works DW2014</Name>
-            <Value xsi:type="xsd:int">1</Value>
+            <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>
